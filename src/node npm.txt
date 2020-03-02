@@ -1,0 +1,12 @@
+npm i --save @fortawesome/fontawesome-svg-core  
+@fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+
+<linkk copy> in html file required>
+for bootstrap
+ npm i --save react react-dom
+npm i --save react-bootstrap
+copy link from reactsite 
+keyword: reactBootstrap

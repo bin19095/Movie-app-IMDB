@@ -1,0 +1,20 @@
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.btn-sucess{
+    color:blue;
+}
+div ul li{
+    background: rgba(0,0,0,0.4) !important;
+    color: white;
+}
+.mg{
+
+    background: #282c34;
+}

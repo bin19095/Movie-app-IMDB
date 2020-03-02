@@ -1,0 +1,8 @@
+Adding basic styles & API sign up
+Creating the search form componnet & Implementing Redux
+Fetching the data from the API
+Displaying the search results on the page
+integrating React router and link & creating the Movie Component
+Setting up the loading state action and control the spinner component display
+setting up components and fixing up the links warnings
+Dealing with the false API response
