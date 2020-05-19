@@ -1,47 +1,59 @@
 import React from "react";
-import Carousel from 'react-bootstrap/Carousel'
+import Carousel from 'react-bootstrap/Carousel';
+import './animation.css';
+import thor from '../../img/Thor.jpg';
+import alpha from '../../img/Alpha.jpg';
+import irish from '../../img/irish.jpg';
+
+
 function Slider(){
     const style={
-        height: '500px',
-        width:'100%'
+
+        width:'100%',
+
+    };
+    const style2={
+        backgroundSize:'fit'
+
     }
     return(
-        <Carousel className="col md-2">
-            <Carousel.Item>
+        <Carousel className="col md-2 image"   style={style}>
+            <Carousel.Item >
                 <img
-                    className="img-fluid"
-                    style={style}
-                    src="https://i.picsum.photos/id/1000/1500/800.jpg"
+                    className="img-fluid image"
+
+                    src={thor}
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
+                    <h3>Thor</h3>
                     <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="img-fluid"
-                    src="https://i.picsum.photos/id/1004/1500/800.jpg
-"                   style={style}
+                    src={alpha}
+                    style={style2}
                     alt="Third slide"
+
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
+                    <h3>Alpha</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     className="img-fluid"
-                    src="https://i.picsum.photos/id/1025/1500/800.jpg
-"                   style={style}
+                    src={irish}
+
                     alt="Third slide"
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
+                    <h3>IrishMan</h3>
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </Carousel.Caption>
             </Carousel.Item>

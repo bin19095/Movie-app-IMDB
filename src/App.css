@@ -1,3 +1,33 @@
+
+
+
+.bg-app {
+
+  top: 0;
+  right: 0;
+  z-index: 200;
+  background-image: radial-gradient(ellipse closest-side, rgba(15, 14, 22, 0.5), #100e17),
+  url(https://res.cloudinary.com/css-tricks/image/fetch/w_1200,q_auto,f_auto/https://css-tricks.com/wp-content/uploads/2018/06/stripe-nav.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -34,8 +64,12 @@
   }
   to {
     transform: rotate(360deg);
+
   }
 }
+
+
+
 /*.backgroundImg{
   background: url("Image1.jpeg");
   background-repeat: no-repeat;
@@ -43,23 +77,3 @@
 
 
 }*/
-
-video {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: auto;
-  min-height: 50%;
-  min-width: 50%;
-  z-index: -10;
-}
-.background-video {
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-
-
-}

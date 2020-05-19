@@ -1,0 +1,36 @@
+/*imported style css by tab/tabs/about*/
+.abcont{
+    z-index: 0;
+height: 1000px;
+    font-size: 30px;
+    color: white;
+}
+ab-t-color{
+    color: #f7f7f7;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.tab-list{
+    border-bottom:1px solid #ccc;
+    padding-left: 0;
+
+    margin-top:10px;
+}
+.tab-list-item{
+    display: inline-block;
+    list-style:none;
+    margin-bottom: -1px;
+    padding: 0.5rem 0.75rem;
+    color:cadetblue;
+    cursor: pointer;
+}
+
+.tab-list-active{
+    background-color: rgb(22,22,32,0.8);
+    font-weight: bolder;
+    border-top:solid #cccccc;
+    border-left:2px solid #cccccc;
+    border-right: 2px solid #cccccc;
+    border-width: 3px 3px 0 3px;
+
+}

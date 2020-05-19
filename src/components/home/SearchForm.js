@@ -23,16 +23,17 @@ onSubmit = e =>{
 
 	render() {
 		return (
-		<div className="col-12 col-md-10 col-lg-12">
-            <div>       IMDB Collection                   </div>
+		<div className="col-10 col-md-5 col-lg-11 ml-1">
+
                             <form className="card card-sm mt-4 mb-4" onSubmit={this.onSubmit}>
                                 <div className="card-body row no-gutters align-items-center">
                                     <div className="col-auto">
                                         <FontAwesomeIcon icon={faSearch}/>
                                     </div>
-                                    <div className="col">
+                                    <div className="col" >
                                         <input className="form-control form-control-lg form-control-borderless mt-4 mb-2"
-                                         type="search" placeholder="Search topics or keywords"
+
+                                               type="search" placeholder="Search topics or keywords"
                                         onChange={this.onChange}
                                         />
                                     </div>

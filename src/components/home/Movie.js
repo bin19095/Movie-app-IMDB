@@ -9,6 +9,7 @@ import StarRatingComponent from 'react-star-rating-component';
 import Like from './plug/like';
 import './search.css';
 import ReactTypingEffect from 'react-typing-effect';
+import Comments from './Comments';
 
 
 class Movie extends Component {
@@ -143,15 +144,17 @@ this.props.setLoading();
 			<Link to="/" className="btn  btn-default text-light">
 				Go Back To Search
 			</Link>
+				<Comments />
 			</div>
 			</div>
 			</div>
-			</div>)
+
+				</div>);
 		let content =loading ? <Spinner />: movieInfo;
 		return(
 				<div  style={bgStyle}> {content} </div>
 			);
-	
+
 	}
 }
 

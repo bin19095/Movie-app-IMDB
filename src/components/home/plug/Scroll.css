@@ -1,0 +1,43 @@
+a {
+    color: white;
+}
+
+.long {
+    width: 100%;
+    background-color: #1038f4;
+}
+
+.Scroll-container {
+    height: 400px;
+}
+
+.scroll {
+    z-index: 10;
+    opacity: 0.3;
+    background-color: gold;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 5px;
+    border: none;
+
+
+
+}
+.scroll:hover{
+    opacity: 1;
+}
+
+.arrow-up{
+    font-weight: bolder;
+    font-size: 20px;
+    z-index:11;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -9px;
+    margin-left: -5px;
+}

@@ -1,0 +1,149 @@
+.cont{
+    background-color:#A5A5A5;
+    position:relative;
+    width:100%;
+    height:100px;
+    text-transform:uppercase;
+    background: rgb(255,255,255,0);
+
+}
+
+.subCont{
+    margin-top:10px;
+    color:#fff;
+    text-align:center;
+    justify-content:center;
+    height:100%;
+    width:30%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    display:block;
+    transform:translate(-50%,-50%);
+    transition: background-color 2s ease;
+    border-radius:80%;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+
+
+}
+
+.cont .subCont:hover{
+    background-color: #FFF;
+    color:black;
+    transform: translate();
+
+}
+
+
+.imdb{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-40%,-50%);
+    letter-spacing:50px;
+    font-weight:bold;
+    font-size:30px;
+    animation:text 3s infinite;
+
+}
+.mv-txt{
+
+    position:absolute;
+    top:78%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:15px;
+    letter-spacing:30px;
+    animation:text 3s infinite;
+}
+
+@keyframes text{
+    0%{
+        color:black;
+        margin-bottom:-40px;
+
+    }
+    30%{
+        letter-spacing:50%;
+        margin-bottom:-40px;
+    }
+    85%{
+        letter-spacing:15px;
+        margin-bottom:-40px;
+
+    }
+}
+
+
+.image{
+
+  z-index: 1000;
+
+    -moz-box-shadow: inset 0px 850px 500px -500px #302121;
+    -webkit-box-shadow: inset 0px 850px 500px -500px #302121;
+    -o-box-shadow: inset 0px 850px 500px -500px #302121;
+    box-shadow: inset 0px -850px 500px -600px #302121;
+}
+
+.image:before{
+    top:0;
+    width:20%;
+    height:100%;
+    -moz-box-shadow: inset 0px 850px 500px -500px #302121;
+    -webkit-box-shadow: inset 0px 850px 500px -500px #302121;
+    -o-box-shadow: inset 0px 850px 500px -500px #302121;
+    box-shadow: inset 0px 850px 500px -500px #302121;
+}
+.image:after{
+    width:20%;
+    height:10%;
+    top:100%;
+    background:#000;
+}
+
+
+.img-blood {
+    width:50%;
+
+    position:absolute;
+    animation-name:bloodflow;
+    animation-duration: 15s;
+    animation-iteration-count: 1;
+    top:-3%;
+    right:-20%;
+    z-index:0;
+    height:800px ;
+}
+
+@keyframes bloodflow{
+    0%{
+        opacity: 1;
+        width:50%;
+        height:200px;
+        z-index: 0;
+    }
+    25%{
+        height: 400px;
+
+    }
+    50%{
+        height: 600px;
+
+    }
+    75%{
+        height: 800px;
+
+    }
+
+
+
+    100%{
+        height: 800px;
+        width:50%;
+        opacity: 1;
+
+    }
+}

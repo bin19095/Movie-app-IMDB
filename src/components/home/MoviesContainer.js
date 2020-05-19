@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import MovieCard from './MovieCard';
-
+import ScrollButton from "./plug/ScrollButton";
  class MoviesContainer extends Component {
 	render() {
 		const {movies} = this.props;
@@ -21,7 +21,9 @@ import MovieCard from './MovieCard';
 			<div className="row">
 				{content}
 
+				<ScrollButton scrollStepInPx="50" delayInMs="16.66"/>
 			</div>
+
 		);
 
 

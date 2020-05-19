@@ -2,11 +2,14 @@ import React, { Component } from 'react';
 
 export default class Footer extends Component {
 	render() {
+	    const style1={
+	        position:'relative'
+        }
 		return (
 
 
 
-<footer className="page-footer bg-dark font-small mdb-color lighten-3 pt-4">
+<footer className="page-footer bg-dark font-small mdb-color lighten-3 pt-4" style={style1}>
 
 
 

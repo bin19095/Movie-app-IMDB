@@ -1,7 +1,9 @@
 .form-control-borderless {
     border: none;
 }
-
+input{
+    width:50%;
+}
 .form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
     border: none;
     outline: none;

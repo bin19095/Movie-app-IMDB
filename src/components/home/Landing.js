@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import MoviesContainer from './MoviesContainer';
 import Spinner from '../layout/spinner';
 import Slider from "../layout/Slider";
+import Headline from "../layout/Headline";
 
 class Landing extends Component {
 
@@ -20,7 +21,7 @@ class Landing extends Component {
 
 		return (
 			<div className="container"  >
-
+					<Headline />
 					<SearchForm />
 					{loading ? <Spinner /> : <MoviesContainer />}
 
