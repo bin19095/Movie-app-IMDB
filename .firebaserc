@@ -1,5 +1,6 @@
 {
   "projects": {
-    "movieapp": "movie-ba2e9"
+    "movieapp": "movie-ba2e9",
+    "default": "movie-ba2e9"
   }
 }
